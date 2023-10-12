@@ -26,8 +26,8 @@ Example Request Payload:
 
 ```json
 {
-    "fname": "John",
-    "lname": "Doe"
+    "fname": "manny",
+    "lname": "hortizuela"
 }
 
 ```
@@ -43,8 +43,8 @@ Example Request Payload:
 ```json
 {
     "id": 1,
-    "fname": "Jane",
-    "lname": "Smith"
+    "fname": "manny",
+    "lname": "hortizuela"
 }
 ```
 ### DELETE /deleteName
@@ -92,8 +92,8 @@ $url = 'http://localhost:8080/postName';
 
 // Data to send in the request payload
 $data = [
-    'fname' => 'John',
-    'lname' => 'Doe',
+    'fname' => 'manny',
+    'lname' => 'hortizuela',
 ];
 
 // Create HTTP request options
